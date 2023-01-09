@@ -1,3 +1,5 @@
+package JavaGenerics;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +38,7 @@ public class Main {
         }
 
         /**
-         * Even though it is asking for a type liskovSubstitutionParent it can still
+         * Even though it is asking for a type JavaGenerics.liskovSubstitutionParent it can still
          * accept subtypes of that type and should function properly
          * @param lsp
          */
